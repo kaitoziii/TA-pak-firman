@@ -158,12 +158,3 @@ npm run build    # Build produksi
 npm run start    # Jalankan build produksi
 npm run lint     # Jalankan ESLint
 ```
-
----
-
-## 6. Catatan
-
-- `astro` tercantum di `dependencies` tapi tidak tampak digunakan — kemungkinan leftover/eksperimen.
-- `cookie.txt` ada di root — kemungkinan berisi data testing cookies.
-- Path alias `@/` mengarah ke root project (`"@/*": ["./*"]` di `tsconfig.json`).
-- Database menggunakan **SQLite** (file: `prisma/dev.db`). Konfigurasi: `DATABASE_URL` di `.env`.
